@@ -23,11 +23,11 @@ requirements:
     - cmake
     - pkg-config
     - ninja
+    # This is just to provide FinduSockets.cmake, not needed at runtime
+    - ycm-cmake-modules
   host:
     - libusockets
     - zlib
-    # This is just to provide FinduSockets.cmake, not needed at runtime
-    - ycm-cmake-modules
 
 test:
   commands:
