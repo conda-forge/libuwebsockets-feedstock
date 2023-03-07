@@ -1,11 +1,11 @@
-About libuwebsockets
-====================
+About libuwebsockets-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libuwebsockets-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/uNetworking/uWebSockets
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libuwebsockets-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simple, secure & standards compliant web server library for the most demanding of applications
 
