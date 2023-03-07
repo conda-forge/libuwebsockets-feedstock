@@ -1,5 +1,5 @@
 {% set name = "libuwebsockets" %}
-{% set version = "20.36.0" %}
+{% set version = "20.37.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/uNetworking/uWebSockets/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: cda266f7ed6abe67ef3cae6e223a580fe5091db9156c1f4123ee328ae21511c9
+    sha256: ea155453c056477a4650ca86c093712af79b19504b6522454331e74743d9bd37
 
 build:
   number: 0
@@ -38,7 +38,7 @@ about:
   home: https://github.com/uNetworking/uWebSockets
   license: Apache-2.0
   license_file: LICENSE
-  summary:  Simple, secure & standards compliant web server library for the most demanding of applications 
+  summary: Simple, secure & standards compliant web server library for the most demanding of applications
 
 extra:
   recipe-maintainers:
