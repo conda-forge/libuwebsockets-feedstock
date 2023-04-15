@@ -1,5 +1,5 @@
 {% set name = "libuwebsockets" %}
-{% set version = "20.37.0" %}
+{% set version = "20.38.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/uNetworking/uWebSockets/archive/refs/tags/v{{ version }}.tar.gz
-    sha256: ea155453c056477a4650ca86c093712af79b19504b6522454331e74743d9bd37
+    sha256: 044f8400fb3f1a97c9b8cb3d8d7581cec46d1df8c29d19e661bf2bb07359088d
 
 build:
   number: 0
