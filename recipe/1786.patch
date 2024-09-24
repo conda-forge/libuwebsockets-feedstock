@@ -1,0 +1,20 @@
+From f8030352a33ac379488fa9d38e5b616e539facff Mon Sep 17 00:00:00 2001
+From: Silvio Traversaro <silvio@traversaro.it>
+Date: Tue, 24 Sep 2024 12:25:57 +0200
+Subject: [PATCH] Add missing include cstdint in BloomFilter.h
+
+---
+ src/BloomFilter.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/BloomFilter.h b/src/BloomFilter.h
+index a98cc395d..12d29e616 100644
+--- a/src/BloomFilter.h
++++ b/src/BloomFilter.h
+@@ -21,6 +21,7 @@
+ /* This filter has no false positives or collisions for the standard
+  * and non-standard common request headers */
+ 
++#include <cstdint>
+ #include <string_view>
+ #include <bitset>
