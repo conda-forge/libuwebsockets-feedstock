@@ -8,8 +8,6 @@ package:
 source:
   - url: https://github.com/uNetworking/uWebSockets/archive/refs/tags/v{{ version }}.tar.gz
     sha256: 02dd1dd2925c639c01222d19f4ddd6fe12261571bcb3befc7eedaf8fa75c008f
-    patches:
-      - 1786.patch
 
 build:
   number: 0
